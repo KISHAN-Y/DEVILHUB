@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./CURRUENCY.png">
+    <title>Currency Exchange</title>
+    <link rel="stylesheet" href="./style-1.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="blink"><b><i>Currency</i></b>&nbsp;<span><i><b>Convertor</b></i></span></h1>
+
+        <div class="box">
+            <div class="left_box">
+                <div class="flag-icon">
+                    <img src="https://flagcdn.com/16x12/us.png" alt="" id="countryflag1">
+                </div>
+                <select name="currency" class="currency" onchange="setcountryflag1(this)"></select>
+                <input type="number" name="" id="num" placeholder="Type a vale....">
+            </div>
+            <div class="right_box">
+                <div class="flag-icon"> 
+                    <img src="https://flagcdn.com/16x12/us.png" alt="" id="countryflag2">
+                </div>
+                <select name="currency" class="currency" onchange="setcountryflag2(this)"></select>
+                <b><input type="text" name="" id="ans" disabled placeholder="Get a value....."></b>
+            </div>
+        </div>
+        <button class="btn" id="btn">Convert</button>
+        <a href="../../index.html"><button class="btn" id="btn">Back</button></a>
+    </div>
+    <footer>
+        <span>Created By <a href="https://linktr.ee/Devilhub">DEVIL HUB</a> | <span class="far fa-copyright"></span> 2020 All rights reserved.</span>
+    </footer>
+    
+
+
+    <script>
+        const _0x31f0e7=_0x16db;(function(_0x3150f3,_0x4dba7c){const _0x3cd5fc=_0x16db,_0x4e0c06=_0x3150f3();while(!![]){try{const _0x574e2d=parseInt(_0x3cd5fc(0x189))/0x1*(-parseInt(_0x3cd5fc(0x18b))/0x2)+parseInt(_0x3cd5fc(0x19c))/0x3*(parseInt(_0x3cd5fc(0x181))/0x4)+parseInt(_0x3cd5fc(0x193))/0x5+-parseInt(_0x3cd5fc(0x18d))/0x6*(parseInt(_0x3cd5fc(0x194))/0x7)+parseInt(_0x3cd5fc(0x190))/0x8*(parseInt(_0x3cd5fc(0x19a))/0x9)+parseInt(_0x3cd5fc(0x180))/0xa*(parseInt(_0x3cd5fc(0x186))/0xb)+-parseInt(_0x3cd5fc(0x19e))/0xc;if(_0x574e2d===_0x4dba7c)break;else _0x4e0c06['push'](_0x4e0c06['shift']());}catch(_0x1d4df2){_0x4e0c06['push'](_0x4e0c06['shift']());}}}(_0x41ca,0x9700a));function _0x16db(_0x399c00,_0x3d47a8){const _0x41ca4c=_0x41ca();return _0x16db=function(_0x16db79,_0x339f09){_0x16db79=_0x16db79-0x17c;let _0xbdb78=_0x41ca4c[_0x16db79];return _0xbdb78;},_0x16db(_0x399c00,_0x3d47a8);}const select=document['querySelectorAll'](_0x31f0e7(0x182)),btn=document[_0x31f0e7(0x18f)](_0x31f0e7(0x197)),num=document['getElementById'](_0x31f0e7(0x1a0)),ans=document[_0x31f0e7(0x18f)]('ans');fetch(_0x31f0e7(0x184))[_0x31f0e7(0x18a)](_0x24730e=>_0x24730e[_0x31f0e7(0x17d)]())[_0x31f0e7(0x18a)](_0xf7f94f=>{display(_0xf7f94f);});function _0x41ca(){const _0xfd7d6a=['&to=','174TWQkDV','toLowerCase','16194660LTaUyR','countryflag1','num','values','json','<option\x20value=\x22','api.frankfurter.app','1626910LdxXni','7212QadjSY','.currency','.png','https://api.frankfurter.app/currencies','countryflag2','33bEXxgg','entries','rates','5014HiRuaB','then','262QKmioS','innerHTML','14496zHcrgN','value','getElementById','1264eDiSHZ','addEventListener','https://flagcdn.com/16x12/','4929310fHPqhe','392UNvTdr','substr','Choose\x20Different\x20Currencies\x20!!!','btn','</option>','src','67311gIgKvH'];_0x41ca=function(){return _0xfd7d6a;};return _0x41ca();}function display(_0x1b8cda){const _0x3f6239=_0x31f0e7,_0x40db35=Object[_0x3f6239(0x187)](_0x1b8cda);for(var _0x4b29b2=0x0;_0x4b29b2<_0x40db35['length'];_0x4b29b2++){select[0x0][_0x3f6239(0x18c)]+=_0x3f6239(0x17e)+_0x40db35[_0x4b29b2][0x0]+'\x22>'+_0x40db35[_0x4b29b2][0x0]+_0x3f6239(0x198),select[0x1][_0x3f6239(0x18c)]+=_0x3f6239(0x17e)+_0x40db35[_0x4b29b2][0x0]+'\x22>'+_0x40db35[_0x4b29b2][0x0]+'</option>';}}btn[_0x31f0e7(0x191)]('click',()=>{const _0x8c007b=_0x31f0e7;let _0x179015=select[0x0][_0x8c007b(0x18e)],_0x38631a=select[0x1][_0x8c007b(0x18e)],_0x48cf46=num[_0x8c007b(0x18e)];_0x179015!=_0x38631a?convert(_0x179015,_0x38631a,_0x48cf46):alert(_0x8c007b(0x196));});function setcountryflag1(_0x56b18f){const _0x5cd7e1=_0x31f0e7;var _0x1a672a=_0x56b18f[_0x5cd7e1(0x18e)][_0x5cd7e1(0x195)](0x0,_0x56b18f['value']['length']-0x1)[_0x5cd7e1(0x19d)]();document[_0x5cd7e1(0x18f)](_0x5cd7e1(0x19f))['src']=_0x5cd7e1(0x192)+_0x1a672a+_0x5cd7e1(0x183);}function setcountryflag2(_0x3e59cd){const _0x481198=_0x31f0e7;var _0x406f07=_0x3e59cd[_0x481198(0x18e)][_0x481198(0x195)](0x0,_0x3e59cd['value']['length']-0x1)[_0x481198(0x19d)]();document['getElementById'](_0x481198(0x185))[_0x481198(0x199)]=_0x481198(0x192)+_0x406f07+'.png';}function convert(_0x2409d3,_0x5a74d1,_0x3b2424){const _0x4452a2=_0x31f0e7,_0x4bcc15=_0x4452a2(0x17f);fetch('https://'+_0x4bcc15+'/latest?amount='+_0x3b2424+'&from='+_0x2409d3+_0x4452a2(0x19b)+_0x5a74d1)[_0x4452a2(0x18a)](_0x1218ee=>_0x1218ee[_0x4452a2(0x17d)]())['then'](_0x91e152=>{const _0x2da03b=_0x4452a2;console['log'](Object[_0x2da03b(0x17c)](_0x91e152[_0x2da03b(0x188)])[0x0]),ans[_0x2da03b(0x18e)]=Object[_0x2da03b(0x17c)](_0x91e152[_0x2da03b(0x188)])[0x0];});}
+    </script>
+</body>
+</html>

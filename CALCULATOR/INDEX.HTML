@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>CALCULATOR</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="./calculator png.jpg">
+        <link rel="stylesheet" href="./style-1.css">
+    </head>
+    <body>
+        <div class="calculator_container">
+            <div class="calculator_iphone">
+                <!--display the number-->
+                <div class="calculator_input_display">
+                    <textarea cols="40" rows="7" id="calculator_input_Number_Previews"></textarea>
+                    <input type="text" id="calculator_input_Number">
+                </div>
+                <!--calculator button-->
+
+                <div class="calculator_button">
+                    <!--left button-->
+                    <div class="calculator_button_left3">
+                        <div class="calculator_button_left3_Top">
+                            <!--clear the input box-->
+                            <div class="calculator_button_FixedSize_Top" id="Calculator_input_AC">AC</div>
+                            <div class="calculator_button_FixedSize_Top" onclick="display('+/-')">+/-</div>
+                            <div class="calculator_button_FixedSize_Top" onclick="display('%')">%</div>
+                        </div>
+
+                        <!--middle button number-->
+                        <div class="calculator_button_left_Number">
+                            <div class="calculator_button_Fixedsize_Number" onclick="display('9')">9</div>
+                            <div class="calculator_button_Fixedsize_Number" onclick="display('8')">8</div>
+                            <div class="calculator_button_Fixedsize_Number" onclick="display('7')">7</div>
+
+                            <div class="calculator_button_Fixedsize_Number" onclick="display('6')">6</div>
+                            <div class="calculator_button_Fixedsize_Number" onclick="display('5')">5</div>
+                            <div class="calculator_button_Fixedsize_Number" onclick="display('4')">4</div>
+
+                            <div class="calculator_button_Fixedsize_Number" onclick="display('3')">3</div>
+                            <div class="calculator_button_Fixedsize_Number" onclick="display('2')">2</div>
+                            <div class="calculator_button_Fixedsize_Number" onclick="display('1')">1</div>
+                        </div>
+
+                        <!--bottom button left-->
+                        <div class="calculator_button_left3_bottom">
+                            <div class="calculator_button_FixedSize_bottom" id="calculator_button_FixedSize_bottom_zero" onclick="display('0')">0</div>
+                            <div class="calculator_button_FixedSize_bottom" onclick="display('.')">.</div>
+                        </div>
+                    </div>
+                    <!--right button -->
+                    <div class="calculator_button_Right">
+                        <div class="calculator_button_FixedSize_Orange" onclick="display('/')">÷</div>
+                        <div class="calculator_button_FixedSize_Orange" onclick="display('*')">×</div>
+                        <div class="calculator_button_FixedSize_Orange" onclick="display('-')">-</div>
+                        <div class="calculator_button_FixedSize_Orange" onclick="display('+')">+</div>
+                        <!--answer button-->
+                        <div class="calculator_button_FixedSize_Orange" onclick="displaySolve()">=</div>
+                        
+                    </div>
+
+                </div>
+            </div>
+            <br>
+                <!-- <div class="calculator_button"> -->
+                    <a href="../../index.html"><button class="btn" id="btn">BACK</button></a>
+                <!-- </div> -->
+        </div>
+        <footer>
+        <span>Created By <a href="https://linktr.ee/Devilhub">DEVIL HUB</a> | <span class="far fa-copyright"></span> 2023 All rights reserved.</span>
+    </footer>
+        <!--javascript file link html file-->
+        <script>
+            const _0x102ab9=_0x5550;(function(_0xbc6cb3,_0x2a075a){const _0x5893f5=_0x5550,_0x370981=_0xbc6cb3();while(!![]){try{const _0x29730b=-parseInt(_0x5893f5(0xa7))/0x1+parseInt(_0x5893f5(0xaa))/0x2+-parseInt(_0x5893f5(0xab))/0x3*(parseInt(_0x5893f5(0xa6))/0x4)+-parseInt(_0x5893f5(0xa2))/0x5+parseInt(_0x5893f5(0xac))/0x6*(-parseInt(_0x5893f5(0xa5))/0x7)+parseInt(_0x5893f5(0xa1))/0x8*(parseInt(_0x5893f5(0xae))/0x9)+parseInt(_0x5893f5(0xa3))/0xa;if(_0x29730b===_0x2a075a)break;else _0x370981['push'](_0x370981['shift']());}catch(_0x166757){_0x370981['push'](_0x370981['shift']());}}}(_0x4e96,0x4f687));function _0x4e96(){const _0x15f725=['3623389rcNrVe','4KqkTKQ','417407LhHoIU','value','calculator_input_Number','956874VhTick','1101321EFcrwN','6IseWZZ','Calculator_input_AC','319635rruDpf','calculator_input_Number_Previews','click','112dGtDWn','493175YpGKWp','7503840EIMGKN','getElementById'];_0x4e96=function(){return _0x15f725;};return _0x4e96();}let calculator_input_Number_V=document[_0x102ab9(0xa4)](_0x102ab9(0xa9)),calculator_input_Number_Previews_V=document[_0x102ab9(0xa4)](_0x102ab9(0x9f)),Calculator_input_AC_V=document[_0x102ab9(0xa4)](_0x102ab9(0xad)),DisplayValue;function display(_0x5c1bcf){calculator_input_Number_V['value']+=_0x5c1bcf;}Calculator_input_AC_V['addEventListener'](_0x102ab9(0xa0),()=>{const _0x4da97e=_0x102ab9;calculator_input_Number_V[_0x4da97e(0xa8)]='',calculator_input_Number_Previews_V[_0x4da97e(0xa8)]='';});function _0x5550(_0x3febad,_0x286299){const _0x4e96f2=_0x4e96();return _0x5550=function(_0x555064,_0x23bb8f){_0x555064=_0x555064-0x9f;let _0x2e4cdf=_0x4e96f2[_0x555064];return _0x2e4cdf;},_0x5550(_0x3febad,_0x286299);}function displaySolve(){const _0xf00ea6=_0x102ab9;let _0x5bb66e=calculator_input_Number_V[_0xf00ea6(0xa8)];calculator_input_Number_Previews_V[_0xf00ea6(0xa8)]=_0x5bb66e;let _0xa04caa=eval(_0x5bb66e);calculator_input_Number_V['value']=_0xa04caa;}
+        </script>
+        
+    </body>
+</html>
